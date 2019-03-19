@@ -111,6 +111,10 @@ set colorcolumn=80
 let python_highlight_all=1
 syntax on
 
+" NerdTree support on ,ne in normal mode"
+let mapleader = ","
+121 nmap <leader>ne :NERDTree<cr>
+
 " Keep indentation level from previous line:
 autocmd FileType python set autoindent
 
